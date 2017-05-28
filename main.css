@@ -92,3 +92,14 @@ p#tour {
     padding: 0 22px;
     
 }
+#macbook{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+#red{
+    height: 88800px;
+    background: url(hflvykipmc5g22mc3m0m.jpg) no-repeat 100px 100px;
+}
