@@ -1,0 +1,94 @@
+html, body{
+    margin:0;
+    padding:0;
+    height:auto;
+}
+header div#test {
+    background: #2e4861;
+}
+p{
+    color: #fff;
+    text-align: right;
+    margin: 0 10% 0 0;
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+}
+p span{
+    font-size: 9px;
+}
+div#IPS {
+    background: #36648f;
+    padding: 10px 0 10px 0;
+    
+}
+img {
+    height: 30px;
+    margin: 10px;
+}
+div.container {
+    width: 70%;
+    margin: auto
+}
+ul li {
+    display: inline-block;
+    color: white;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+div#block {
+    background: #37ac9d;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-left: 15px;
+    float: right;
+    vertical-align: super;
+}
+p#buy {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+
+}
+p#from {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+div#A {
+    height: 390px;
+    background: #3e74a6;
+    padding: 50px 0 50px 10%; 
+    
+}
+div#A h1, div#A h3 {
+    padding: 0px;
+    margin: 0 0 10px 0;
+    color: white;
+    width: 60%;
+    font-family: "proxima-nova", "helvetica neue";
+    font-weight: 400;
+    
+    
+}
+div#A h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+div#A h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+p#tour {
+    line-height: 46px;
+    font-size: 20px;
+    background: #3e4148;
+    display: inline-block;
+    padding: 0 22px;
+    
+}
