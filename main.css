@@ -113,6 +113,7 @@ video{
     right: 105px;
     height: 280px;
 }
+<<<<<<< HEAD
 #iconback {
     background: #f5f7f8;
     height: 230px;
@@ -156,3 +157,12 @@ li#gallery a {
 li#blogs a {
     color: #19858f;
 }
+=======
+#ipad{
+    widows: auto;
+    height: auto;
+    position: absolute;
+    top: 371px;
+    right: 511px;
+} 
+>>>>>>> 88d3d9d11ffbe7fd3f92c098de3611cbf227af50
