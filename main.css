@@ -103,14 +103,17 @@ a#tour:hover {
     top: 200px;
     right: 50px;
 }
-
+#macbook{
+    width: 500px;
+    height: 420px;
+}
 #tablet {
     top: 350px;
     right: 500px;
 }
 video{
     top: 225px;
-    right: 105px;
+    right: 78px;
     height: 280px;
 }
 #iconback {
@@ -136,7 +139,6 @@ ul#nav > li > a {
 }
 li#forums a {
     color: #b15757;
-    
 }
 li#commerce a {
     color: #a33767;
@@ -163,9 +165,6 @@ li#blogs a {
     top: 371px;
     right: 511px;
 } 
-#four {
-    
-}
 #ways {
     width: 80%;
     margin: auto;
