@@ -26,10 +26,11 @@ img {
     margin: 10px;
 }
 div.container {
-    width: 70%;
+    width: 80%;
     margin: auto
 }
 ul li {
+    padding: 0 15px;
     display: inline-block;
     color: white;
 }
@@ -37,10 +38,12 @@ ul {
     display: inline-block;
     vertical-align: top;
 }
+.borderRight{border-right: 1px solid white;}
 div#block {
     background: #37ac9d;
     display: inline-block;
-    width: 100px;
+    width: 120px;
+    margin-top: 4px;
     text-align: center;
     margin-left: 15px;
     float: right;
@@ -126,38 +129,44 @@ footer {
 }
 ul#nav {
     padding-top: 50px;
-    width: 70%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     text-align: center;
 }
 ul#nav > li > a {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     padding: 15px 5px 15px 50px;
     display: inline-block;
 }
-li#forums a {
-    color: #b15757;
+ul#nav > li > a > div {
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
 }
-li#commerce a {
-    color: #a33767;
+ul#nav > li > a div i{
+    color: white;
+    font-size: 23px;
+    margin-top: 13px;
 }
-li#pages a {
-    color: #713e91;
-}
-li#downloads a {
-    color: #5f4e93;
-}
-li#calendar a {
-    color: #4d5487;
-}
-li#gallery a {
-    color: #3b73b3;
-}
-li#blogs a {
-    color: #19858f;
-}
+li#forums a {color: #b15757;}
+li#forums a div {background: #b15757;}
+li#commerce a {color: #a33767;}
+li#commerce a div {background: #a33767;}
+li#pages a {color: #713e91;}
+li#pages a div {background: #713e91;} 
+li#downloads a {color: #5f4e93;}
+li#downloads a div {background: #5f4e93;}
+li#calendar a {color: #4d5487;}
+li#calendar div {background: #4d5487;}
+li#gallery a {color: #3b73b3;}
+li#gallery div {background: #3b73b3;}
+li#blogs a {color: #19858f;}
+li#blogs div {background: #19858f;}
 #ipad{
     width: auto;
     height: auto;
@@ -192,4 +201,13 @@ div.four {
 #ways h2, #ways p {
     margin: 0 50px;
     font-weight: 300;
+}
+ul#nav li a:hover {
+    color: #37ac9d;
+}
+#ways i {
+    position: absolute;
+    margin-top: -20px;
+    font-size: 40px;
+    color: #984d84;
 }
