@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <header>
-            <div id="test">
-                <p>Existing Client? Sign in <span> ▼</span> </p>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="functions.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div id="test">
+            <p>Existing Client? Sign in <span> ▼</span> </p>
+        </div>
+        <div id="IPS">
+            <div class="container">
+                <img id="logo" src="images/logo.png">
+                <ul>
+                    <li>Features</li>
+                    <li>Services</li>
+                    <li class="borderRight">Free demo</li>
+                    <li>Community</li>
+                    <li>Marketplace</li>
+                    <li>Support</li>
+                    <li>News</li>
+                </ul>
+                <div id="block">
+                    <p id="buy">BUY NOW</p>
+                    <p id="from">from 30$/month</p>
+                </div>
             </div>
-            <div id="IPS">
-                <div class= "container">
-                    <img id="logo" src="images/logo.png">
-                    <ul>
-                        <li>Features</li>
-                        <li>Services</li>
-                        <li class="borderRight">Free demo</li>
-                        <li>Community</li>
-                        <li>Marketplace</li>
-                        <li>Support</li>
-                        <li>News</li>
-                    </ul>
-                    <div id= "block">
-                        <p id= "buy">BUY NOW</p>
-                        <p id= "from">from 30$/month</p>
-                    </div>
-                </div>  
-            </div>
-        </header>
-        <div id="A">
-            <h1>Build Awesome Communities</h1>
-            <h3>The IPS Community Suite is a flexible, integrated set of<br/>apps for building great communities on the web.</h3>
-            <a href="https://invisioncommunity.com/features" id="tour">Take the feature tour</a>
-            <img id="macbook" src="images/macBackground.png">
-            <video autoplay id="video">
+        </div>
+    </header>
+    <div id="A">
+        <h1>Build Awesome Communities</h1>
+        <h3>The IPS Community Suite is a flexible, integrated set of<br/>apps for building great communities on the web.</h3>
+        <a href="https://invisioncommunity.com/features" id="tour">Take the feature tour</a>
+        <img id="macbook" src="images/macBackground.png">
+        <video autoplay id="video">
                 <source src="images/homepage.mp4" type="video/mp4">
             </video>
-            <img id="tablet" src="images/ipadBackground.png">
-            <img id="ipad" src="images/tablet.jpg">
-        </div>
-        <div id="iconback">
+        <img id="tablet" src="images/ipadBackground.png">
+        <img id="ipad" src="images/tablet.jpg">
+    </div>
+    <div id="iconback">
         <ul id="nav">
             <li id="forums">
                 <a href="https://invisioncommunity.com/features/apps#forums">
@@ -84,59 +88,122 @@
                 </a>
             </li>
         </ul>
+    </div>
+    <div id="four">
+        <div id="ways">
+            <h1>Four ways we can help your business thrive.</h1>
+            <div class="four" id="fans">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <h2>Create engaged fans</h2>
+                <p>Gives fans a place to gather and wax lyrical on your terms. Passionate fans, given the right environment, can propel your brand to new audiences.</p>
+            </div>
+            <div class="four" id="improve">
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                <h2>Improve employee sharing</h2>
+                <p>Unparalled discussion and information sharing capabilities means your employees can share information with less friction and better efficiency.</p>
+            </div>
+            <div class="four" id="reduce">
+                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                <h2>Reduce support overheads</h2>
+                <p>When customers can find the answers they need from peers quickly and easily, their reliance on your support team is reduced - along with your costs.</p>
+            </div>
+            <div class="four" id="grow">
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <h2>Grow customer loyalty</h2>
+                <p>Members who feel invested in your community will also feel invested in - and loyalty to - your brand. Word of mouth is the best recommendation around!</p>
+            </div>
         </div>
-        <div id="four">
-            <div id="ways">
-                <h1>Four ways we can help your business thrive.</h1>
-                <div class="four" id="fans">
-                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                    <h2>Create engaged fans</h2>
-                    <p>Gives fans a place to gather and wax lyrical on your terms. Passionate fans, given the right environment, can propel your brand to new audiences.</p>
+    </div>
+    <div id="section">
+        <div id="karusele">
+            <div id="evernoteContainer" class="container">
+                <div class="textBlock">
+                    <h3 class="spotlight">Customer Spotlight</h3>
+                    <p class="title">Evernote</p>
+                    <p class="text">Evernote uses the IPS Community Suite to power their C2C support and product discussion forums, helping users to efficiently get support for Evernote products.</p>
                 </div>
-                <div class="four" id="improve">
-                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                    <h2>Improve employee sharing</h2>
-                    <p>Unparalled discussion and information sharing capabilities means your employees can share information with less friction and better efficiency.</p>
+                <div class="imageBlock">
+                    <img src="images/evernote.jpg">
                 </div>
-                <div class="four" id="reduce">
-                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                    <h2>Reduce support overheads</h2>
-                    <p>When customers can find the answers they need from peers quickly and easily, their reliance on your support team is reduced - along with your costs.</p>
+            </div>
+            <div id="warnerContainer" class="container hide">
+                <div class="textBlock">
+                    <h3 class="spotlight">Customer Spotlight</h3>
+                    <p class="title">Warner Music Group</p>
+                    <p class="text">The IPS Community Suite powers fan communities for some of Warner Music Group's biggest artists, including Eric Clapton, Greenday, Josh Groban and Michael Bublé.</p>
                 </div>
-                <div class="four" id="grow">
-                    <i class="fa fa-line-chart" aria-hidden="true"></i>
-                    <h2>Grow customer loyalty</h2>
-                    <p>Members who feel invested in your community will also feel invested in - and loyalty to - your brand. Word of mouth is the best recommendation around!</p>
+                <div class="imageBlock">
+                    <img src="images/warner.jpg">
+                </div>
+            </div>
+            <div id="findlawContainer" class="container hide">
+                <div class="textBlock">
+                    <h3 class="spotlight">Customer Spotlight</h3>
+                    <p class="title">Findlaw</p>
+                    <p class="text">FindLaw by Thompson Reuters chose the IPS Community Suite to power their law-based question and answer community, helping users solve legal dilemmas.</p>
+                </div>
+                <div class="imageBlock">
+                    <img src="images/findlaw.jpg">
+                </div>
+            </div>
+            <div id="livenationContainer" class="container hide">
+                <div class="textBlock">
+                    <h3 class="spotlight">Customer Spotlight</h3>
+                    <p class="title">Livenation</p>
+                    <p class="text">LiveNation artists including Madonna, U2, Sting, ACDC and Mariah Carey choose the IPS Community Suite to power their fan communities.</p>
+                </div>
+                <div class="imageBlock">
+                    <img src="images/livenation.jpg">
+                </div>
+            </div>
+            <div id="nhlContainer" class="container hide">
+                <div class="textBlock">
+                    <h3 class="spotlight">Customer Spotlight</h3>
+                    <p class="title">NHL</p>
+                    <p class="text">The IPS Community Suite powers the fan communities for a majority of the NHL teams, including Washingon Capitals, Chicago Blackhawks and Vancouver Canucks.</p>
+                </div>
+                <div class="imageBlock">
+                    <img src="images/nhl.jpg">
+                </div>
+            </div>
+            <div id="bethesdaContainer" class="container hide">
+                <div class="textBlock">
+                    <h3 class="spotlight">Customer Spotlight</h3>
+                    <p class="title">Bethesda Softworks</p>
+                    <p class="text">Bethesda Softworks uses the IPS Community Suite to power communities for their biggest games, including The Elder Scrolls, Fallout, DOOM and QUAKE.</p>
+                </div>
+                <div class="imageBlock">
+                    <img src="images/bethesda.jpg">
                 </div>
             </div>
         </div>
-        <div id="section">
-            <div id="karusele">
-                <div class="container">
-                    <div class="textBlock">
-                        <h3 class="spotlight">Customer Spotlight</h3>
-                        <p class="title">Evernote</p>
-                        <p class="text">Evernote uses the IPS Community Suite to power their C2C support and product discussion forums, helping users to efficiently get support for Evernote products.</p>
-                    </div>
-                    <div class="imageBlock">
-                        <img src="images/evernote.jpg">
-                    </div>
-                </div>    
+        <nav id="meniu">
+            <div class="container">
+                <ul>
+                    <li id="evernote" class="active">
+                        <div></div>
+                    </li>
+                    <li id="warner">
+                        <div></div>
+                    </li>
+                    <li id="findlaw">
+                        <div></div>
+                    </li>
+                    <li id="livenation">
+                        <div></div>
+                    </li>
+                    <li id="nhl">
+                        <div></div>
+                    </li>
+                    <li id="bethesda">
+                        <div></div>
+                    </li>
+                </ul>
             </div>
-            <nav id="meniu">
-                <div class="container">
-                    <ul>
-                        <li id="evernote"><div></div></li>
-                        <li id="warner"><div></div></li>
-                        <li id="finlaw"><div></div></li>
-                        <li id="livenation"><div></div></li>
-                        <li id="nhl"><div></div></li>
-                        <li id="bethesda"><div></div></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <footer>
-        </footer>
-    </body>
+        </nav>
+    </div>
+    <footer>
+    </footer>
+</body>
+
 </html>
