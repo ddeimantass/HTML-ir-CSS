@@ -66,7 +66,7 @@ p#from {
 div#A {
     height: 390px;
     background: #3e74a6;
-    padding: 50px 0 50px 10%; 
+    padding: 0 0 0 10%; 
     
 }
 div#A h1, div#A h3 {
@@ -81,11 +81,12 @@ div#A h1, div#A h3 {
 }
 div#A h1 {
     font-size: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding-top: 85px;
 }
 div#A h3 {
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 a#tour {
     color: white;
@@ -103,7 +104,7 @@ a#tour:hover {
     width: auto;
     height: auto;
     position: absolute;
-    top: 200px;
+    top: 115px;
     right: 50px;
 }
 #macbook{
@@ -111,12 +112,12 @@ a#tour:hover {
     height: 420px;
 }
 #tablet {
-    top: 350px;
-    right: 500px;
+    top: 280px;
+    right: 460px;
 }
 video{
-    top: 225px;
-    right: 78px;
+    top: 133px;
+    right: 70px;
     height: 280px;
 }
 #iconback {
@@ -171,8 +172,8 @@ li#blogs div {background: #19858f;}
     width: auto;
     height: auto;
     position: absolute;
-    top: 371px;
-    right: 511px;
+    top: 303px;
+    right: 470px;
 } 
 #ways {
     width: 80%;
@@ -253,7 +254,8 @@ p.text {
     margin: 0;
 }
 #meniu ul li{
-    padding: 20px 40px;
+    display: table-cell;
+    padding: 20px 45px;
 }
 #meniu ul li div {
     padding: 0;
