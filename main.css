@@ -397,16 +397,20 @@ p.text {
     background-position: 0 -75px;
     margin-bottom: 5px;
 }
+
 .hide {
     display: none;
 }
+
 nav#meniu ul li:hover {
     background: #2a2e33;
     cursor: pointer;
 }
+
 nav#meniu ul li.active {
     background: #3e74a6;
 }
+
 #meniu ul li#evernote.active div {
     background-position: -165px 0px;
 }
@@ -423,9 +427,76 @@ nav#meniu ul li.active {
     background-position: -165px -99px;
 }
 
-#meniu ul li#nhl.active div{
+#meniu ul li#nhl.active div {
     background-position: -167px -131px;
 }
+
 #meniu ul li#bethesda.active div {
     background-position: -164px -75px;
+}
+
+#discover {
+    background: white;
+    height: 600px;
+    padding-top: 50px;
+}
+
+h2.text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 31px;
+}
+
+div.greyBlock {
+    background: #f5f7f8;
+    padding: 0 30px 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 25%;
+    display: inline-block;
+}
+
+div.greyBlock:nth-child(3) {
+    margin: 30px 2% 10px;
+}
+
+h3.blockTitle {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    color: #3b3f42;
+    font-weight: 300;
+    margin: 0;
+}
+
+p.blockText {
+    color: #858c92;
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+#discover i.fa {
+    color: #984d84;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 19px;
+    margin-left: 19px;
+}
+
+i.fa-shield {
+    margin-top: 22px;
+    margin-left: 25px;
+}
+
+div.circle {
+    border-radius: 100px;
+    margin: -20px 0 0 105px;
+    width: 74px;
+    height: 74px;
+    background: white;
+    border: 3px solid #984d84;
+    position: absolute;
 }
