@@ -150,8 +150,7 @@ video {
 }
 
 footer {
-    background: black;
-    height: 50px;
+    background: #3e74a6;
 }
 
 ul#nav {
@@ -499,4 +498,42 @@ div.circle {
     background: white;
     border: 3px solid #984d84;
     position: absolute;
+}
+img#footerLogo {
+    height: 40px;
+    float: left;
+}
+div.colmd3 {
+    width: 24%;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.colmd9 { 
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.colmd6 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#shortContact p {
+    text-align: left;
+    margin-left: 50px;
+}
+#cUs a {
+    padding: 10px 20px;
+    display: inline-block;
+    background: #3e4148;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+footer a {
+    text-decoration: none;
+    color: #a1bfdc;
+}
+footer h4 {
+    color: white;
 }
