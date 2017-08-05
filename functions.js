@@ -2,14 +2,15 @@ $(document).ready(function () {
     $("#evernote, #warner, #findlaw, #livenation, #nhl, #bethesda").click(function () {
         slide($(this));
     });
-    //    var play = setInterval(slideShow,1000);
-    //    $("#section").hover(
-    //        function(){
-    //            clearInterval(play);
-    //        },function(){
-    //            play = setInterval(slideShow, 1000);
-    //        }
-    //    );
+//    var time = 5000;
+//    var play = setInterval(slideShow,time);
+//    $("#section").hover(
+//        function(){
+//            clearInterval(play);
+//        },function(){
+//            play = setInterval(slideShow, time);
+//        }
+//    );
 });
 
 function slide(that) {

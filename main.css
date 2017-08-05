@@ -12,7 +12,7 @@ header div#test {
 p {
     color: #fff;
     text-align: right;
-    margin: 0 10% 0 0;
+    margin: 0;
     padding: 5px 0px 5px 0px;
     font-size: 15px;
 }
@@ -25,7 +25,7 @@ div#IPS {
     background: #36648f;
     padding: 10px 0 10px 0;
 }
-
+#headerNav{vertical-align: text-top;}
 img#logo {
     height: 30px;
     margin: 10px;
@@ -80,7 +80,7 @@ p#from {
 div#A {
     height: 390px;
     background: #3e74a6;
-    padding: 0 0 0 10%;
+    padding: 0;
 }
 
 div#A h1,
@@ -294,10 +294,6 @@ ul#nav li a:hover {
     color: #984d84;
 }
 
-#karusele {
-    height: 300px;
-}
-
 .textBlock {
     width: 40%;
     display: inline-block;
@@ -452,7 +448,6 @@ div.greyBlock {
     padding: 0 30px 30px;
     margin-bottom: 10px;
     margin-top: 30px;
-    width: 25%;
     display: inline-block;
 }
 
@@ -499,29 +494,41 @@ div.circle {
     border: 3px solid #984d84;
     position: absolute;
 }
+
 img#footerLogo {
     height: 40px;
     float: left;
 }
+
 div.colmd3 {
     width: 24%;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
-div.colmd9 { 
+
+div.colmd9 {
     width: 75%;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
+
 div.colmd6 {
     width: 50%;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
+
 #shortContact p {
+    font-size: 16px;
     text-align: left;
     margin-left: 50px;
+    padding: 0;
 }
+
+#shortContact p strong {
+    font-size: 22px;
+}
+
 #cUs a {
     padding: 10px 20px;
     display: inline-block;
@@ -530,10 +537,96 @@ div.colmd6 {
     text-transform: uppercase;
     font-size: 12px;
 }
+
 footer a {
     text-decoration: none;
     color: #a1bfdc;
 }
+
 footer h4 {
     color: white;
+}
+
+#shortContact p#mail {
+    padding: 10px 0;
+}
+
+footer div.colmd9 ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer div.colmd9 h4 {
+    margin: 0;
+    margin-left: 16px;
+}
+
+footer div.container.shortContact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+footer ul li {
+    display: block;
+}
+#footer2 {
+    background: #366487;
+    height: 50px;
+}
+ul#policies {
+    display: inline-block;
+    color: white;
+    margin-top: 14px;
+}
+#footer2 p {
+    display: inline-block;
+    color: #a1bfdc;
+    margin-top: 7px;
+}
+#footer2 ul li {
+    display: inline-block;
+    color: #a1bfdc;
+    padding: 0 10px;
+}
+.bottomNav ul li a:hover, #footer2 ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+#headerNav .dropDown {
+    background: white;
+    position: absolute;
+    text-align: left;
+    margin-left: -55px;
+    margin-top: 5px;
+}
+.dropDownFlexBox {
+    display: flex;
+    flex-direction: column;
+}
+#headerNav .dropDown ul{
+    padding: 0;
+    min-width: 170px;
+}
+.fTour {
+    color: #8e8e8e;
+    background: #f5f5f5;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.dropDown ul li a {
+    color: #575759;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 6px 15px;
+    font-size: 13px;
+}
+.dropDown ul li {
+    padding: 0;
+}
+.dropDown ul li.fTour {
+    padding: 4px 10px;
+}
+.dropDown ul li:hover {
+    background: #f0f0f0;
 }

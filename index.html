@@ -4,21 +4,42 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="functions.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="functions.js"></script>
     <meta charset="UTF8" />
 </head>
 
 <body>
     <header>
         <div id="test">
-            <p>Existing Client? Sign in <span> ▼</span> </p>
+            <div class="container">
+                <p>Existing Client? Sign in <span> ▼</span> </p>
+            </div>
         </div>
         <div id="IPS">
             <div class="container">
                 <img id="logo" src="images/logo.png">
-                <ul>
-                    <li>Features</li>
+                <ul id="headerNav">
+                    <li>Features
+                        <div id="featuresDropDown" class="dropDown">
+                            <ul class="dropDownFlexBox">
+                                <li class="fTour">Feature Tour</li>
+                                <li><a href="//invisionpower.com/features/apps">Our Apps</a></li>
+                                <li><a href="//invisionpower.com/features/engagement">Engagement</a></li>
+                                <li><a href="//invisionpower.com/features/discovery">Content Discovery</a></li>
+                                <li><a href="//invisionpower.com/features/editing">Editing</a></li>
+                                <li><a href="//invisionpower.com/features/commerce">Commerce</a></li>
+                                <li><a href="//invisionpower.com/features/publishing">Publishing</a></li>
+                                <li><a href="//invisionpower.com/features/spam">Spam Prevention</a></li>
+                                <li><a href="//invisionpower.com/features/moderation">Moderation</a></li>
+                                <li><a href="//invisionpower.com/features/permissions">Permissions</a></li>
+                                <li><a href="//invisionpower.com/features/promotion">Promotion</a></li>
+                                <li><a href="//invisionpower.com/features/customization">Customization</a></li>
+                                <li><a href="//invisionpower.com/features/advanced">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li>Services</li>
                     <li class="borderRight">Free demo</li>
                     <li>Community</li>
@@ -34,15 +55,17 @@
         </div>
     </header>
     <div id="A">
-        <h1>Build Awesome Communities</h1>
-        <h3>The IPS Community Suite is a flexible, integrated set of<br/>apps for building great communities on the web.</h3>
-        <a href="https://invisioncommunity.com/features" id="tour">Take the feature tour</a>
-        <img id="macbook" src="images/macBackground.png">
-        <video autoplay id="video">
+        <div class="container">
+            <h1>Build Awesome Communities</h1>
+            <h3>The IPS Community Suite is a flexible, integrated set of<br/>apps for building great communities on the web.</h3>
+            <a href="https://invisioncommunity.com/features" id="tour">Take the feature tour</a>
+            <img id="macbook" src="images/macBackground.png">
+            <video autoplay id="video">
                 <source src="images/homepage.mp4" type="video/mp4">
             </video>
-        <img id="tablet" src="images/ipadBackground.png">
-        <img id="ipad" src="images/tablet.jpg">
+            <img id="tablet" src="images/ipadBackground.png">
+            <img id="ipad" src="images/tablet.jpg">
+        </div>
     </div>
     <div id="iconback">
         <ul id="nav">
@@ -208,53 +231,61 @@
     <div id="discover">
         <div class="container">
             <h2 class="text">Discover why the IPS Community Suite is awesome for...</h2>
-            <div class="greyBlock">
-                <div class="circle">
-                    <i class="fa fa-cogs" aria-hidden="true"></i>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="greyBlock">
+                        <div class="circle">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="blockTitle">Administrators</h3>
+                        <p class="blockText">The IPS Community Suite is highly configurable - site owners and administrators can set it up precisely according to their needs. Extensive permission controls allow you to choose who sees or can do what. The Admin Control Panel is easy to use, yet extremely capable, and allows you to reflect real-world roles in your organization.</p>
+                    </div>
                 </div>
-                <h3 class="blockTitle">Administrators</h3>
-                <p class="blockText">The IPS Community Suite is highly configurable - site owners and administrators can set it up precisely according to their needs. Extensive permission controls allow you to choose who sees or can do what. The Admin Control Panel is easy to use, yet extremely capable, and allows you to reflect real-world roles in your organization.</p>
-            </div>
-            <div class="greyBlock">
-                <div class="circle">
-                    <i class="fa fa-shield" aria-hidden="true"></i>
+                <div class="col-sm-4">
+                    <div class="greyBlock">
+                        <div class="circle">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="blockTitle">Administrators</h3>
+                        <p class="blockText">The IPS Community Suite is highly configurable - site owners and administrators can set it up precisely according to their needs. Extensive permission controls allow you to choose who sees or can do what. The Admin Control Panel is easy to use, yet extremely capable, and allows you to reflect real-world roles in your organization.</p>
+                    </div>
                 </div>
-                <h3 class="blockTitle">Administrators</h3>
-                <p class="blockText">The IPS Community Suite is highly configurable - site owners and administrators can set it up precisely according to their needs. Extensive permission controls allow you to choose who sees or can do what. The Admin Control Panel is easy to use, yet extremely capable, and allows you to reflect real-world roles in your organization.</p>
-            </div>
-            <div class="greyBlock">
-                <div class="circle">
-                    <i class="fa fa-users" aria-hidden="true"></i>
+                <div class="col-sm-4">
+                    <div class="greyBlock">
+                        <div class="circle">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="blockTitle">Administrators</h3>
+                        <p class="blockText">The IPS Community Suite is highly configurable - site owners and administrators can set it up precisely according to their needs. Extensive permission controls allow you to choose who sees or can do what. The Admin Control Panel is easy to use, yet extremely capable, and allows you to reflect real-world roles in your organization.</p>
+                    </div>
                 </div>
-                <h3 class="blockTitle">Administrators</h3>
-                <p class="blockText">The IPS Community Suite is highly configurable - site owners and administrators can set it up precisely according to their needs. Extensive permission controls allow you to choose who sees or can do what. The Admin Control Panel is easy to use, yet extremely capable, and allows you to reflect real-world roles in your organization.</p>
             </div>
         </div>
     </div>
     <footer>
-        <div class="container">
+        <div class="container shortContact">
             <div id="shortContact" class="colmd3">
                 <img id="footerLogo" src="images/icon_only.png">
                 <p><strong>IPS, Inc.</strong><br>PO Box 2365<br>Forest, VA 24551</p>
-                <p><a href="mailto:sales@invisionpower.com">sales@invisionpower.com</a></p>
+                <p id="mail"><a href="mailto:sales@invisionpower.com">sales@invisionpower.com</a></p>
                 <p id="cUs"><a href="//invisionpower.com/contact-us">Contact Us</a></p>
             </div>
-            <div class="colmd9">
+            <div class="colmd9 bottomNav">
                 <div class="colmd6">
                     <h4>PRODUCT FEATURES</h4>
-                    <ul class="featureList">
-                        <li><a href="//invisionpower.com/features/apps"> Our 7 Community Apps</a></li>
-                        <li><a href="//invisionpower.com/features/discovery">Discovery</a></li>
-                        <li><a href="//invisionpower.com/features/commerce">Commerce</a></li>
-                        <li><a href="//invisionpower.com/features/moderation">Moderation</a></li>
-                        <li><a href="//invisionpower.com/features/permissions">Permissions</a></li>
-                        <li><a href="//invisionpower.com/features/customization">Customization</a></li>
-                        <li><a href="//invisionpower.com/features/engagement">Engagement</a></li>
-                        <li><a href="//invisionpower.com/features/editing">Editing</a></li>
-                        <li><a href="//invisionpower.com/features/publishing">Publishing</a></li>
-                        <li><a href="//invisionpower.com/features/spam">Spam</a></li>
-                        <li><a href="//invisionpower.com/features/promotion">Promotion</a></li>
-                        <li><a href="//invisionpower.com/features/apps">Advanced</a></li>
+                    <ul class="featureList row">
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/apps"> Our 7 Community Apps</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/discovery">Discovery</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/commerce">Commerce</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/moderation">Moderation</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/permissions">Permissions</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/customization">Customization</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/engagement">Engagement</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/editing">Editing</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/publishing">Publishing</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/spam">Spam</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/promotion">Promotion</a></li>
+                        <li class="col-sm-6"><a href="//invisionpower.com/features/apps">Advanced</a></li>
                     </ul>
                 </div>
                 <div class="colmd3">
@@ -269,12 +300,22 @@
                 <div class="colmd3">
                     <h4>MORE</h4>
                     <ul>
-                        <li><a href= "//invisionpower.com/demo">Demo</a></li>
-                        <li><a href= "//invisionpower.com/contacts-us">Contact Us</a></li>
-                        <li><a href= "//invisionpower.com/buy">Buy Now</a></li>
-                        <li><a href= "//invisionpower.com/developers">Developers</a></li>
+                        <li><a href="//invisionpower.com/demo">Demo</a></li>
+                        <li><a href="//invisionpower.com/contacts-us">Contact Us</a></li>
+                        <li><a href="//invisionpower.com/buy">Buy Now</a></li>
+                        <li><a href="//invisionpower.com/developers">Developers</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div id="footer2">
+            <div class="container">
+                <p id="inc">© 2017 Invision Power Services, Inc. </p>
+                <ul id="policies">
+                    <li><a href="//invisionpower.com/legal/privacy">Pricacy</a></li>
+                    <li><a href="//invisionpower.com/legal/legal">Our Policies</a></li>
+                    <li><a href="//invisionpower.com/legal/network-status">Network Status</a></li>
+                </ul>
             </div>
         </div>
     </footer>
