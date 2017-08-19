@@ -25,7 +25,14 @@ div#IPS {
     background: #36648f;
     padding: 10px 0 10px 0;
 }
-#headerNav{vertical-align: text-top;}
+#headerNav{vertical-align: text-top;} 
+#headerNav > li > a{
+    color: white;
+    text-decoration: none;
+} 
+#headerNav > li {
+    cursor: pointer;
+}
 img#logo {
     height: 30px;
     margin: 10px;
@@ -164,7 +171,7 @@ ul#nav {
 ul#nav>li>a {
     font-size: 25px;
     text-decoration: none;
-    padding: 15px 5px 15px 50px;
+    padding: 15px 25px 15px 5px;
     display: inline-block;
 }
 
@@ -598,6 +605,9 @@ ul#policies {
     text-align: left;
     margin-left: -55px;
     margin-top: 5px;
+    z-index: 1;
+    text-transform: capitalize;
+    display: none;
 }
 .dropDownFlexBox {
     display: flex;
@@ -608,6 +618,7 @@ ul#policies {
     min-width: 170px;
 }
 .fTour {
+    cursor: initial;
     color: #8e8e8e;
     background: #f5f5f5;
     text-transform: uppercase;
@@ -629,4 +640,12 @@ ul#policies {
 }
 .dropDown ul li:hover {
     background: #f0f0f0;
+}
+#featuresDropDown {
+    display: none;
+}
+#question {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
 }

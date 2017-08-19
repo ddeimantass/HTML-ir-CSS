@@ -2,15 +2,43 @@ $(document).ready(function () {
     $("#evernote, #warner, #findlaw, #livenation, #nhl, #bethesda").click(function () {
         slide($(this));
     });
-//    var time = 5000;
-//    var play = setInterval(slideShow,time);
-//    $("#section").hover(
-//        function(){
-//            clearInterval(play);
-//        },function(){
-//            play = setInterval(slideShow, time);
-//        }
-//    );
+
+    //    var time = 5000;
+    //    var play = setInterval(slideShow,time);
+    //    $("#section").hover(
+    //        function(){
+    //            clearInterval(play);
+    //        },function(){
+    //            play = setInterval(slideShow, time);
+    //        }
+    //    );
+    $("#fButton").click(function () {
+        if ($("#featuresDropDown").is(":visible")) {
+            $("#featuresDropDown").hide();
+        } else {
+            $("#servicesDropDown").hide();
+            $("#supportDropDown").hide();
+            $("#featuresDropDown").show();
+        }
+    });
+    $("#seButton").click(function () {
+        if ($("#servicesDropDown").is(":visible")) {
+            $("#servicesDropDown").hide();
+        } else {
+            $("#servicesDropDown").show();
+            $("#supportDropDown").hide();
+            $("#featuresDropDown").hide();
+        }
+    });
+    $("#sButton").click(function () {
+        if ($("#supportDropDown").is(":visible")) {
+            $("#supportDropDown").hide();
+        } else {
+            $("#servicesDropDown").hide();
+            $("#supportDropDown").show();
+            $("#featuresDropDown").hide();
+        }
+    });
 });
 
 function slide(that) {

@@ -14,14 +14,14 @@
     <header>
         <div id="test">
             <div class="container">
-                <p>Existing Client? Sign in <span> ▼</span> </p>
+                <p>Existing Client? Sign in <i class="fa fa-caret-down"></i></p>
             </div>
         </div>
         <div id="IPS">
             <div class="container">
                 <img id="logo" src="images/logo.png">
                 <ul id="headerNav">
-                    <li>Features
+                    <li id="fButton">Features &nbsp;<i class="fa fa-caret-down"></i>
                         <div id="featuresDropDown" class="dropDown">
                             <ul class="dropDownFlexBox">
                                 <li class="fTour">Feature Tour</li>
@@ -40,12 +40,30 @@
                             </ul>
                         </div>
                     </li>
-                    <li>Services</li>
-                    <li class="borderRight">Free demo</li>
-                    <li>Community</li>
-                    <li>Marketplace</li>
-                    <li>Support</li>
-                    <li>News</li>
+                    <li id="seButton">Services &nbsp;<i class="fa fa-caret-down"></i>
+                        <div id="servicesDropDown" class="dropDown">
+                            <ul class="dropDownFlexBox">
+                                <li><a href="//invisionpower.com/services/enterprise">Enterprise services</a></li>
+                                <li><a href="//invisionpower.com/services/sso">Single sign-on</a></li>
+                                <li><a href="//invisionpower.com/services/migrate">Migrations</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="borderRight"><a href="//invisionpower.com/demo">Free demo</a></li>
+                    <li><a href="https://invisioncommunity.com/forums/">Community</a></li>
+                    <li><a href="https://invisioncommunity.com/files/">Marketplace</a></li>
+                    <li id="sButton">Support &nbsp;<i class="fa fa-caret-down"></i>
+                        <div id="supportDropDown" class="dropDown">
+                            <ul class="dropDownFlexBox">
+                                <li><a href="https://invisioncommunity.com/4guides/">Help guides</a></li>
+                                <li><a href="https://invisioncommunity.com/developers/">Developers</a></li>
+                                <li><a href="https://invisionpower.com/clientarea/">Client area</a></li>
+                                <li><a href="https://invisionpower.com/release-notes/">Release notes</a></li>
+                                <li><a href="https://community.invisionpower.com/forum/497-peer-to-peer-technical-support/">Peer to Peer Forums</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="https://invisionpower.com/news">News</a></li>
                 </ul>
                 <div id="block">
                     <p id="buy">BUY NOW</p>
@@ -319,6 +337,6 @@
             </div>
         </div>
     </footer>
+    <img id="question" src="images/question-icon.png">
 </body>
-
 </html>
