@@ -39,6 +39,20 @@ $(document).ready(function () {
             $("#featuresDropDown").hide();
         }
     });
+    $("#file").click(function (){
+        $("input[type='file']").trigger("click");
+    });
+    $("input[type='file']").change(function(){
+        var file = $("input[type='file']").val().split("\\");
+        var length = file.length;
+        $("#file").text(file[length-1]);
+        $("#removeFile").show();
+    });
+    $("#removeFile").click(function(){
+        $("#file").text("Attach a file");
+        $("input[type='file']").val("");
+        $("#removeFile").hide();
+    });
 });
 
 function slide(that) {
@@ -71,3 +85,4 @@ function slideShow() {
             break;
     }
 }
+
