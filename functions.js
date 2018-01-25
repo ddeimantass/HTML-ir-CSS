@@ -53,6 +53,17 @@ $(document).ready(function () {
         $("input[type='file']").val("");
         $("#removeFile").hide();
     });
+    $("#question").click(function(){
+        if($("#contactPopup").css("display") == "none" ){
+            $("#contactPopup").show();
+            $(this).attr("src", "images/icon_close.png");
+        }
+        else{
+            $("#contactPopup").hide();
+            $(this).attr("src", "images/question-icon.png");
+        }
+
+    });
 });
 
 function slide(that) {

@@ -14,7 +14,57 @@
     <header>
         <div id="test">
             <div class="container">
-                <p>Existing Client? Sign in <i class="fa fa-caret-down"></i></p>
+                <div id="wrapper">
+                    <p>Existing Client? Sign in <i class="fa fa-caret-down"></i></p>
+                    <div id="topPopup">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <form>
+                                    <h2>Sign In</h2>
+                                    <input name="email" type="email" class="email" placeholder="Email address">
+                                    <input name="password" type="password" class="password" placeholder="Password">
+                                    <div class="checkboxdiv">
+                                        <input type="checkbox" name="remember" class="remember">
+                                        <div>
+                                            <label>Remember me</label>
+                                            <span>Not recommended on shared computers</span>
+                                        </div>
+                                    </div>
+                                    <div class="checkboxdiv">
+                                        <input type="checkbox" name="signin" class="signin">
+                                        <label>Sign in anonymously</label>
+                                    </div>
+                                    <input name="topPopupSubmit" type="submit" value="Sign In">
+                                    <a href="https://invisioncommunity.com/lostpassword/">Forgot your password?</a>
+                                </form>
+
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="signInServices">
+                                    <p>Or sign in with one of these services</p>
+                                    <div>
+                                        <a id="facebook" class="services" href="https://www.facebook.com/dialog/oauth?client_id=167973672925&scope=email&redirect_uri=https://invisioncommunity.com/applications/core/interface/facebook/auth.php&state=front-d23b1b1466de4bcb886f4048cd24bde0-aHR0cHM6Ly9pbnZpc2lvbmNvbW11bml0eS5jb20vbG9naW4v">
+                                            <div></div>
+                                            <p>Sign In with Facebook</p>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a id="twitter" class="services" href="https://invisioncommunity.com/login/?loginProcess=twitter&ref=aHR0cHM6Ly9pbnZpc2lvbmNvbW11bml0eS5jb20vbG9naW4v">
+                                            <div></div>
+                                            <p>Sign In with Twitter</p>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a id="google" class="services" href="https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=928975879915-4qiu79kbn2t92iggs00np2k8lreg2f6a.apps.googleusercontent.com&redirect_uri=https://invisioncommunity.com/applications/core/interface/google/auth.php&scope=https://www.googleapis.com/auth/plus.login%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&access_type=offline&state=front-d23b1b1466de4bcb886f4048cd24bde0-aHR0cHM6Ly9pbnZpc2lvbmNvbW11bml0eS5jb20vbG9naW4v">
+                                            <div></div>
+                                            <p>Sign In with Google</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="IPS">
@@ -341,7 +391,7 @@
     <div id="contactPopup">
         <div>
             <form id="contactForm" action="" method="GET">
-                            <p>Do you have sales questions before you purchase?</p>
+                <p>Do you have sales questions before you purchase?</p>
                 <input type="email" name="email" placeholder="Email address">
                 <textarea name="message" placeholder="How can we help you?"></textarea>
                 <div>
@@ -352,5 +402,7 @@
             </form>
         </div>
     </div>
+
 </body>
+
 </html>

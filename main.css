@@ -648,6 +648,7 @@ ul#policies {
     position: fixed;
     bottom: 25px;
     right: 25px;
+    cursor: pointer;
 }
 #contactPopup {
     position: fixed;
@@ -659,6 +660,7 @@ ul#policies {
     -webkit-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.5);
+    display: none;
 }
 #contactPopup p {
     color: black;
@@ -704,4 +706,44 @@ input[name='contactSubmit'] {
 }
 input[type='file'] {
     display: none;
+}
+#topPopup {
+    position: absolute;
+    height: 367px;
+    width: 560px;
+    background: white;
+    z-index: 2;
+    margin: 0 -400px;
+    padding: 15px;
+}
+#wrapper {
+    float: right;
+}
+.signInServices {
+    background: #f8f8f8;
+    padding: 5px 15px 15px;
+}
+.signInServices >  p {
+    color: #5f6c73;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+a#facebook {
+    background: #3a579a;
+}
+a#twitter {
+    background: #00abf0;
+}
+a#google {
+    background: #d34730;
+}
+.services {
+    display: block;
+    margin: 10px 0;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.services:hover {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.08) 0%,rgba(255,255,255,0.08) 100%) !important;
 }
